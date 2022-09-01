@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E-Commerce</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align: center;"> SportsGear </h1>
+        </header>
+        <main>
+
+            <container onmouseenter="tennisBatHover()" >
+                <img src="https://i0.wp.com/maplestore.in/wp-content/uploads/2021/09/r1433_Starlight_PDP_Image_Position-1B_Avail__en-IN.jpg?fit=2048%2C2048&ssl=1" alt="tennis bat.jpg" onclick="tennisOptions()"/>
+                <div id="showTennisOptionsHere"></div>
+            </container>
+
+            <container onmouseenter="cricketBatHover()">
+                <img src="https://www.apple.com/in/iphone/home/images/meta/iphone__ky2k6x5u6vue_og.png?202208050401" alt="cricket bat.jpg"/>
+                
+            </container>
+
+            <cart>
+                <h1>Analytics</h1>
+                <p>Tennis Bat:<span id="tennisBatAnalytics"></span></p>
+                <p>Cricket Bat:<span id="cricketBatAnalytics"></span></p>
+                <analytics>
+                    <canvas id="myChart" width="400" height="400"></canvas>
+                </analytics>
+                <hr>
+                <h1>Cart</h1>
+                <p>Products:<span id="products"></span></p>
+                <p>Items:<span id="items"></span></p>
+                <p>Price:<span id="products"></span></p>
+            </cart>
+
+            
+
+        </main>
+        <!-- Scripts -->
+        <script src="scripts.js"></script>
+    </body>
+</html>

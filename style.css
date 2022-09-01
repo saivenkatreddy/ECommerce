@@ -1,0 +1,48 @@
+body{
+    width:100%;
+    height:auto;
+    background-color: antiquewhite;
+}
+
+header,main{
+    display:flex;
+    border:1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:10px;
+}
+
+container{
+    height:auto;
+    max-width: 400px;
+    padding:10px;
+    background-color: red;
+}
+
+img{
+    width: 30%;
+    height:auto;
+    max-width: 600px;
+    min-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+cart{
+    border:1px solid black;
+    padding: 40px;
+    background-color: aliceblue;
+    min-width:400px;
+}
+
+/* New elements */
+.newElement{
+    border:1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    background-color: azure;
+    color:black;
+}
